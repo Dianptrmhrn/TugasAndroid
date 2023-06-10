@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Beranda"
+        android:id="@+id/beranda"
+        android:icon="@drawable/home"
+        />
+    <item android:title="Laporan"
+        android:id="@+id/laporan"
+        android:icon="@drawable/file_text"
+        />
+    <item android:title="Edukasi"
+        android:id="@+id/edukasi"
+        android:icon="@drawable/book"
+        />
+    <item android:title="Kontak"
+        android:id="@+id/kontak"
+        android:icon="@drawable/phone"
+        />
+</menu>

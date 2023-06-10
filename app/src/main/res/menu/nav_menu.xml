@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_beranda"
+        android:title="Beranda"
+        android:icon="@drawable/home"
+        />
+
+    <item
+        android:id="@+id/nav_fav"
+        android:title="Favorite"
+        android:icon="@drawable/favorite"
+        />
+
+    <item
+        android:id="@+id/nav_kontak"
+        android:title="Kontak"
+        android:icon="@drawable/phone"
+        />
+
+    <item
+        android:id="@+id/nav_notif"
+        android:title="Notification"
+        android:icon="@drawable/notif"
+        />
+
+    <item
+        android:id="@+id/nav_setting"
+        android:title="Setting"
+        android:icon="@drawable/round_settings_24"
+        />
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:title="Login"
+                android:icon="@drawable/baseline_login_24"/>
+        </menu>
+    </item>
+
+</menu>
